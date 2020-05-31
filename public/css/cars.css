@@ -1,0 +1,21 @@
+body{
+  background-image: url('../images/carsbackground1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 950px;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+}
+.container{
+  margin-top: 8%;
+}
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
